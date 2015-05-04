@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+
+<link rel="stylesheet" href="touchgallery.css" />
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.touchSwipe.min.js"></script>
+
+<script src="touchgallery.js">
+
+
+
+</script>
+
+<script>
+
+jQuery(function(){ // on DOM load
+		$('div#touchgallery1').touchgallery({  // initialize first demo
+			width: 250,
+			height: 200
+		})
+		
+	})
+
+</script>
+
+</head> 
+<body> 
+
+<div id="touchgallery1" class="touchgallery">
+<ul>
+<li><img src="pool.jpg" /></li>
+<li><img src="cave.jpg" /></li>
+<li><img src="fruits.jpg" /></li>
+<li><img src="autumn.jpg" /></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
